@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(54, 51, 47,.3);
+}
+.navWrapper{
+    
+}
+nav{
+    position: sticky;
+    top: 0%;
+    margin: 0px;
+    padding: 20px;
+    padding-left: 150px;
+    background-color: rgb(12, 12, 12,.8);
+}
+.searchWrapper{
+    position: relative;
+}
+.searchInput{
+    text-align: center;
+    padding: 5px 10px;
+    border: none;
+    text-align: left;
+    border-radius: 10px;
+}
+.fa-search{
+    color: #e5b80b;
+    position: absolute;
+    right: 10px;
+    top: 4px;
+}
+
+.logo{
+    display: inline-block;
+    position: sticky;
+    top: -20px;
+    bottom: 80px;
+}
+.logo:hover{
+    transition-duration: 0.8s;
+    transform: rotate(360deg);
+}
+nav a{
+    text-decoration: none;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    color: #E5B80B;
+    /* color: rgb(238, 237, 237,.6); */
+}
+nav a:hover{
+    color: black;
+    background-color: rgb(176 170 170 / 90%);
+    box-shadow: cadetblue;
+
+}
+
+.div1{
+    background-image: url(./SRC/back1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 650px;
+
+}
+/* .seaters{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+   
+}
+.seaters .m1{
+    
+    width: 500px;
+    display: inline-block;
+    height: 400px;
+    background-color: white;
+   
+    
+} */
+/* .div2{
+    height: fit-content;
+    padding: 10px;
+   
+} */
+
+
+
+footer{
+    height: 200px;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+footer a{
+    color:burlywood;
+    margin: 10px;
+}

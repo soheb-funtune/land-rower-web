@@ -1,0 +1,109 @@
+body{
+    /* background-color: rgb(233, 140, 140); */
+    background-color: white;
+}
+.mdiv1{
+    background-image: url(./SRC/back14.jpg);
+}
+nav{
+    position: sticky;
+    top: 0%;
+    margin: 0px;
+    /* margin-left: 150px; */
+    padding-left: 150px;
+    background-color: rgb(12, 12, 12,.8);
+}
+nav a{
+    /* color: black; */
+    color: #E5B80B;
+}
+.mdiv2{
+    /* width: 100%; */
+    /* margin-bottom: 20px; */
+    padding: 20px;
+    /* background-color: rgb(228, 222, 222); */
+    background-color: rgb(12, 12, 12,.8);
+}
+.item1{
+    height: 300px;
+    border-radius: 20px;
+    border: 0.5px solid #E5B80B;
+   background-color: rgb(176 170 170 / 90%);
+    margin: 20px;
+    box-shadow: 0px,0px, 10px, red;
+    
+
+
+}
+.item1 h3{
+    text-align: center;
+    color: #E5B80B;
+}
+.item1 img{
+    display: inline-block;
+    margin: 10px;  
+}
+.item1 div p{
+    line-height: 10px;
+}
+.mdiv2 .item1 div p{
+
+    color: rbga(212, 175, 55);
+}
+.item1 div{
+    display: inline-block;
+    margin-left: 20px;
+    
+   }
+.imgdiv{
+    margin: 10px;
+    display: inline-block;
+    height: 250px;
+    /* padding: ; */
+}
+
+div p{
+    line-height: 0%;
+    margin-left:20px ;
+}
+
+
+
+/* THIS IS FOR MOBILE VIEW */
+
+
+@media (max-width:500px) {
+    body{
+        background-color: rgb(219, 187, 42);
+    }
+    .mdiv1{
+         background-position: bottom;
+        /* background-position-x: bottom; */
+        background-size: auto 500px;
+    }
+    nav{
+        margin-left: 40px;
+        padding: 5px;
+    }
+    nav a{
+        padding: 5px;
+    }
+    marquee{
+        width: 200px;
+    }
+    .logo{
+        top: -18px;
+    }
+    .logo img{
+        width: 150px;
+        height: 115px;
+    }
+
+    /* this is for tablet view */
+
+}
+@media (min-width:501px) and (max-width:800px){
+    body{
+        background-color: salmon;
+    }
+}

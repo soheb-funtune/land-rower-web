@@ -1,0 +1,55 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(54, 51, 47,.3),!important;
+}
+.div1{
+    background-image: url(./SRC/back15.jpg);
+}
+.technology{
+    background-image: url(https://www.landrover.in/sdlmedia/636602641746911216FL.jpg?v=1#desktop_Tabbed_Container_1600x900);
+    height: 500px;
+    /* width: 1250px; */
+    
+}
+.logo{
+    top: 0%;
+}
+
+.first{
+    display: flex;
+    /* background-color: ; */
+    margin: 50px;
+    top: 0%;
+    
+    
+    
+}
+.first1,.first2,.first3{
+    
+    height: 400px;
+    width: 570px;
+    
+    /* background-color: tomato; */
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    align-items: center;
+    
+
+}
+.first2{
+    margin-left: 400px;
+    padding: 0%;
+    background-color: black;
+    
+}
+video{
+    margin-top: -26px;
+    border-radius: 20px;
+    height: 370px;
+    width: 570px;
+    display: inline-block;
+
+}
